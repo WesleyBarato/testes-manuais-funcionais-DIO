@@ -1,0 +1,2 @@
+# Ignorar o arquivo de texto
+QA.txt

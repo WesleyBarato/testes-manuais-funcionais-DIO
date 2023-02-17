@@ -1,0 +1,189 @@
+git FUNÇÕES:
+	- Testes automatizados
+	- Gerenciamento de defeitos de software
+	- Auxilio a desenvolvedores
+	- Testes manuais
+	- Cultura de qualidade
+	- Auxilio na compreensão de historias para validar
+e verificar requisitos.
+
+CTFL - CERTIFIED TESTER - CERTIFICAÇÃO
+
+ROADMAP BÁSICO
+	- Fundamentos de qualidade de software
+	- Fundamentos de aplicações Web e Redes
+	- CI/CD
+	- Testes de software
+	- Testes automatizados
+	- Processos de software e ciclo de vida
+	- Fundamentos de ciência da computação
+	- Fundamentos de programação
+	- Padrões de projeto e arquitetura de sistemas
+
+FUNDAMENTOS DE QUALIDADE DE SOFTWARE:
+	- Percepções de qualidade
+	- Qualidade em todos os processos(Início ao fim)
+	- Análise estática: Avaliação de documentação do 
+software e código fonte.
+	- Análise Dinâmica: técnicas com o código em
+execução (onde estão os testes).
+	- Verificação e Validação.
+	- Erro, Defeito e Falha de Sistema.
+Informações de um reporte de defeito: 
+	* Um identificador único
+	* Título resumindo o problema
+	* Data/Autor ou Relator
+	* Identificação do item sob teste e do ambiente
+	* Fase do ciclo de vida no qual o defeito foi
+observado
+	* Descrição completa do defeito para reprodução
+	* Evidências: Logs, Screenshots, gravações
+	* Resultado esperado
+	* Severidade
+	* Urgência/Prioridade
+	* Estado do defeito
+	* Conclusões/Sugestões
+	* Impactos
+	* Histórico
+	* Referência do teste
+Ferramentas de suporte:
+	* Jira
+	* Azure Devops
+INTRODUÇÃO AOS TESTES DE SOFTWARE:
+	-> Evitar defeitos e avaliar produtos de trabalho
+	-> Verificar cumprimento de requisitos
+	-> Validar se produto funciona como o cliente
+espera
+	-> Criar confiança no nível de qualidade
+do objeto testado
+	-> Redução de riscos
+	-> Atuar junto ao cliente para tomada de decisões
+
+Processo de teste:
+	1. Planejamento de teste, 2.Monitoramento e 
+controle do teste, 3. Análise, 4. Modelagem, 
+5. Implementação, 6. Execução, 7. Conclusão.
+
+Níveis de teste:
+Teste de componentes ou unitários, testes de integração
+Teste de sistema, testes de aceite
+
+Tipos de teste:
+teste funcional, teste não funcional,
+teste de caixa branca(unitario e integração),
+teste de confirmação (verificação após correção),
+teste de regressão (efeitos colaterais de alterações
+em um componente).
+
+TECNICAS DE TESTE:
+- Técnica de caixa-preta: Fundamentada em documentos de
+requisitos, casos de uso, histórias do usuário.
+- São aplicáveis para testes funcionais ou não-funcionais
+- Foca nas entradas e saídas, abstraindo a estrutura
+interna
+
+- Técnica de caixa-branca são teste a nivel de código
+fonte
+- Baseada na estrtura interna 
+
+METODOLOGIAS ÁGEIS E CICLO DE DESENVOLVIMENTO DE SOFTWARE
+
+	- Modelo Cascata (Clássico) Linear e Sistemático
+	- Modelo Incremental (Pequenos funcionalidade
+sendo entregues, porém segue sendo cascata)
+	- Modelo Evolucionário (prototipação e espiral)
+	- Processo unificado (Todas as etapas são feitas
+ao mesmo tempo)
+Extreme programinig mais voltado para o desenvolvimento
+de software já o scrum pode ser usado em qualquer lugar
+
+PROCESSO SCRUM
+User stories(Product Vision) -> Product Backlog -> 
+Planning meeting -> Sprint (2-4 weeks) -> deployment
+Scrum master - Product owner - Developes
+
+TESTES NO MUNDO ÁGIL:
+- O tester tem que participar do projeto do inicio ao fim
+atividas = * análise detalhada das história
+* determinar testabilidade da históra
+* Criar testes de aceite
+* criar tarefas para teste
+* estimar esforço
+* identificar aspectos funcionais e nao funcionais
+* participar do processo de automação
+
+* determinar escopo, extensão, objetivos e razões para teste
+pensar para resolver o problema mais rápido
+
+* as atividades do QA começa na planning 
+* foco nos testes de segurança, performance e exploratórios
+* Uso de automação para testes de regressão
+PRODUTOS DE TRABALHO COMUNS DE UM QA:
+* Testes automatizados -> resultados
+* plano de testes
+* Análise de risco
+* Evidências de testes manuais
+* Relatórios de defeitos
+
+MÉTODO DE TESTES DE SOFTWARE NOS MODELOS ÁGEIS
+TDD - DESENVOLVIMENTO ORIENTADO POR TESTE
+o teste é feito enquanto o código é criado
+BDD - DESENVOLVIMENTO ORIENTADO A COMPORTAMENTO
+given, when, and, when, then
+
+
+
+GITHUB:
+-> Criar repositorio no github
+-> Clonar repositorio pelo HTTPS
+-> abrir o gitbash na pasta que quer clonar
+-> git clone mais link do repositorio
+-> cd nome do repositorio
+-> git status para mostrar os arquivos nao commitados
+-> git add . para adicionar os arquivos
+-> git commit -m "comentario do commit"
+-> git status
+-> git push origin main
+
+PROJETO PRATICO DE TESTES MANUAIS FUNCIONAIS DIO:
+
+- Jira e Confluence 
+- Criando projeto
+- Planejamento do fluxo de trabalho
+- Fluxo de trabalho criado
+- Escrevendo histórias de usuário (quem é o usuário, o que
+ele deseja, motivação e razão) exemplos:
+atores, interfaces, dados, regras de negocio, ambiente,
+criterios de aceite(pode ser escrita ou ling guarikim)
+- MIRO
+git 
+PLANNING:
+- Algumas users storys vão do backlog do produto para
+o backlog da sprint
+- planning poker
+PLANEJAMENTO E ESTIMANDO ATIVIDADES DE QA
+- Dividir as tarefas de forma objetiva auxilia
+na divisão de horas
+	* Levantamento e escrita de cenários/casos 
+de teste/ mindmaps
+	* Execucação de testes manuais
+	* Testes automatizados
+
+DOCUMENTAÇÃO DE TESTES:
+- Mínimo pra rastrear cenários e casos validados
+- Reavaliar e adicionar novos testes
+PLANO DE TESTES: Envolve o conjunto de estratégias
+e casos de teste para uma determinada funcionalidade 
+ou conjunto de funcionalidades (dizer tudo que vamos
+fazer para testar aquela funcionalidade).
+CICLO DE TESTES: Conjunto de casos de testes a serem
+executados (dinamico).
+CASOS/CENÁRIOS DE TESTES: Documentos que definem o que
+testar ou como uma funcionalidade deve ser testada
+Caso de teste = verificar uma funcionalidade de forma
+mais especifica
+	* Passos * Dados * Pré-condições * Pós-condições
+Cenário de teste: situação da funcionalidade que pode 
+ser testada em mais alto nivel
+	* Deriva casos de teste
+MIND MAPS: Xminds
